@@ -1,0 +1,37 @@
+{
+  "name": "example-jasmine-serenity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "serenity-bdd update",
+    "clean": "rimraf target",
+    "test": "failsafe test:compile clean test:execute test:report",
+    "test:execute": "protractor ./protractor.conf.js",
+    "test:compile": "tsc",
+    "test:report": "serenity-bdd run --features ./features",
+    "lint": "tslint --project tsconfig.json --format stylish"
+  },
+  "author": "Juan Camilo Murcia Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "@serenity-js/assertions": "^2.3.6",
+    "@serenity-js/console-reporter": "^2.3.6",
+    "@serenity-js/core": "^2.3.6",
+    "@serenity-js/jasmine": "^2.3.6",
+    "@serenity-js/protractor": "^2.3.6",
+    "@serenity-js/rest": "^2.3.6",
+    "@serenity-js/serenity-bdd": "^2.3.6",
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^13.13.4",
+    "chromedriver": "^81.0.0",
+    "jasmine": "^3.5.0",
+    "npm-failsafe": "^0.4.1",
+    "protractor": "^5.4.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.9.1",
+    "tslint": "^6.1.2",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.8.3"
+  }
+}
