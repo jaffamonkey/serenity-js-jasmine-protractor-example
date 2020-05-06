@@ -2,7 +2,7 @@
 
 Utilice esta [plantilla de repositorio](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 para comenzar con las pruebas de aceptación de sus aplicaciones usando [Serenity/JS](https://serenity-js.org), 
-[Cucumber](https://jasmine.github.io/) and [Protractor](https://www.protractortest.org/#/).
+[Jasmine](https://jasmine.github.io/) and [Protractor](https://www.protractortest.org/#/).
 
 ## Prerrequisitos
 
