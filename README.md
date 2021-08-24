@@ -1,20 +1,19 @@
 # Serenity/JS Jasmine Protractor
 
-Utilice esta [plantilla de repositorio](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-para comenzar con las pruebas de aceptación de sus aplicaciones usando [Serenity/JS](https://serenity-js.org), 
-[Jasmine](https://jasmine.github.io/) and [Protractor](https://www.protractortest.org/#/).
+Automation example using [Serenity/JS](https://serenity-js.org), [Jasmine](https://jasmine.github.io/) and [Protractor](https://www.protractortest.org/#/) with the structure of the screenplay pattern.
 
-## Prerrequisitos
 
-Para usar este proyecto, necesitará:
-- Node.js, una version de lanzamiento de soporte a largo plazo (LTS) versión 10 o posterior - [Descargar](https://nodejs.org/en/)
-- Java Runtime Environment (JRE) o Java Development Kit (JDK) versión 8 o posterior - [Descargar](https://adoptopenjdk.net/)
-- Navegador Web Chrome - [Descargar](https://www.google.com/intl/es-419/chrome/)
+## Prerequisites
 
-## Uso
+To use this project, you will need:
+- Node.js, a long-term support (LTS) release version 10 or later - [Download](https://nodejs.org/en/)
+- Java Runtime Environment (JRE) or Java Development Kit (JDK) version 8 or later - [Download](https://adoptopenjdk.net/)
+- Chrome Web Browser - [Download](https://www.google.com/intl/es-419/chrome/)
+
+## Use
 
 ```
-npm ci                  # Instala los modulos requeridos
-npm run lint            # Ejecuta el analisis de codigo estatico Lint
-npm test                # Ejecuta las pruebas de ejemplo y genera el reporte en ./target/site/serenity
+npm ci                 # Install the required modules
+npm run lint           # Execute the analysis of static code Lint
+npm test               # Run the sample tests and generate the report at ./target/site/serenity
 ```
