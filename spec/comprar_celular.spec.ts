@@ -1,9 +1,7 @@
-import {Actors, CarritoCompraPage, Comprar, DemoblazeHomePage, Seleccionar} from './support/screenplay';
-import {actorCalled, actorInTheSpotlight, engage, Log, Note} from '@serenity-js/core';
+import {Actors, CarritoCompraPage, Comprar, Seleccionar, TextoElemento} from './support/screenplay';
+import {actorCalled, engage} from '@serenity-js/core';
 import {browser} from 'protractor';
 import {Ensure, equals} from '@serenity-js/assertions';
-import {TextoElemento} from './support/screenplay/questions';
-
 
 describe('Comprar celular en DemoBlaze', () => {
 

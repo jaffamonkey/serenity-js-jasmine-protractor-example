@@ -3,6 +3,7 @@ const
     { ConsoleReporter } = require('@serenity-js/console-reporter'),
     { Photographer, TakePhotosOfInteractions } = require('@serenity-js/protractor'),
     { SerenityBDDReporter } = require('@serenity-js/serenity-bdd')
+isCI = require('is-ci');
 
 exports.config = {
     baseUrl: 'https://www.demoblaze.com/',
@@ -12,6 +13,8 @@ exports.config = {
     directConnect: true,
 
     allScriptsTimeout: 110000,
+
+    restartBrowserBetweenTests: true,
 
     framework:      'custom',
     frameworkPath:  require.resolve('@serenity-js/protractor/adapter'),
@@ -54,7 +57,7 @@ exports.config = {
                 '--disable-translate',
                 '--always-authorize-plugins',
                 '--disable-extensions'
-            ]
+            ].concat(isCI ? ['--headless'] : [])
         }
     }
 };
