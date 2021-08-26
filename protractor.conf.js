@@ -14,7 +14,7 @@ exports.config = {
 
     allScriptsTimeout: 110000,
 
-    restartBrowserBetweenTests: true,
+    restartBrowserBetweenTests: false,
 
     framework:      'custom',
     frameworkPath:  require.resolve('@serenity-js/protractor/adapter'),
