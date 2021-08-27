@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2021 00:04</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-08-2021 00:21</span>
     <br style="clear:left"/>
 </div>
 
@@ -198,9 +198,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Observar mensaje de compra, al comprar el celular mas costoso
+                                <span class="success-color">Observar mensaje de compra, al comprar el celular mas costoso
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -217,60 +217,33 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Assertion error: Waited 5s for the Boton a&ntilde;adir al carrito el producto seleccionado to become clickable</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/protractor/src/screenplay/interactions/Wait.ts:246)<br />.processTicksAndRejections()(node:internal/process/task_queues:96)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:2201)<br />.ManagedPromise.invokeCallback_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:1376)<br />.TaskQueue.execute_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:3084)<br />.TaskQueue.executeNext_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:3067)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:2927)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:668)<br />.processTicksAndRejections()(node:internal/process/task_queues:96)<br />.scheduleWait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:2188)<br />.ControlFlow.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js:2517)<br />.Driver.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/webdriver.js:934)<br />.run()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/protractor/built/browser.js:58)<br />.ProtractorBrowser.to.<computed> [as wait]()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/protractor/built/browser.js:66)<br />.BrowseTheWeb.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/protractor/src/screenplay/abilities/BrowseTheWeb.ts:549)<br />.WaitUntil.performAs()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/protractor/src/screenplay/interactions/Wait.ts:234)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/core/src/screenplay/activities/TrackedActivity.ts:34)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: TimeoutError
-                    </h4>
-                    <div>
-                            <pre>Wait timed out after 5002ms</pre>
-                        <pre>.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :2201)<br />.ManagedPromise.invokeCallback_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :1376)<br />.TaskQueue.execute_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :3084)<br />.TaskQueue.executeNext_()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :3067)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :2927)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :668)<br />.processTicksAndRejections()(node:internal/process/task_queues :96)<br />.scheduleWait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :2188)<br />.ControlFlow.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/promise.js :2517)<br />.Driver.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/selenium-webdriver/lib/webdriver.js :934)<br />.run()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/protractor/built/browser.js :58)<br />.ProtractorBrowser.to.<computed> [as wait]()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/protractor/built/browser.js :66)<br />.BrowseTheWeb.wait()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/protractor/src/screenplay/abilities/BrowseTheWeb.ts :549)<br />.WaitUntil.performAs()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/protractor/src/screenplay/interactions/Wait.ts :234)<br />.undefined()(/home/runner/work/serenity-js-jasmine-protractor-example/serenity-js-jasmine-protractor-example/node_modules/@serenity-js/core/src/screenplay/activities/TrackedActivity.ts :34)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                <div class="panel-body">
-                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-06e9ab4e4d.png" title=" Jasmine escoge el producto mas economico" width="0"/>
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-06e9ab4e4d.png" title=" Jasmine waits up to 5s until the Boton celulares del menu categorias does become clickable" width="0"/>
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-celulares-f173d039a6.png" title=" Jasmine clicks on the Boton celulares del menu categorias" width="0"/>
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-cont-6ce8e9735b.png" title=" Jasmine waits up to 5s until the Contenedor de la informacion de los productos does become clickable" width="0"/>
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-busca-el-producto-mas-costoso-d3bb23172b.png" title=" Jasmine busca el producto mas costoso" width="0"/>
-                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-d3bb23172b.png" title=" Jasmine waits up to 5s until the Boton a&ntilde;adir al carrito el producto seleccionado does become clickable: <span class='failing-color'>FAILURE</span>" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-412e403e4d.png" title=" Jasmine escoge el producto mas economico" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-412e403e4d.png" title=" Jasmine waits up to 5s until the Boton celulares del menu categorias does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-celulares-9b43156466.png" title=" Jasmine clicks on the Boton celulares del menu categorias" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-cont-e2a3d4ebcd.png" title=" Jasmine waits up to 5s until the Contenedor de la informacion de los productos does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-busca-el-producto-mas-costoso-7c98daf9d6.png" title=" Jasmine busca el producto mas costoso" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-561c01acb4.png" title=" Jasmine waits up to 5s until the Boton a&ntilde;adir al carrito el producto seleccionado does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-a-adir-al-6bbd0f1c07.png" title=" Jasmine clicks on the Boton a&ntilde;adir al carrito el producto seleccionado" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-accepts-the-modal-dialog-wind-028c8ed3fe.png" title=" Jasmine realiza la compra del producto" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-accepts-the-modal-dialog-wind-028c8ed3fe.png" title=" Jasmine cierra la alerta del navegador" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-accepts-the-modal-dialog-wind-028c8ed3fe.png" title=" Jasmine accepts the modal dialog window" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-cierra-la-alerta-del-navegado-028c8ed3fe.png" title=" Jasmine cierra la alerta del navegador (completed)" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-028c8ed3fe.png" title=" Jasmine waits up to 5s until the Boton carrito compras does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-carrito-c-3829ff481b.png" title=" Jasmine clicks on the Boton carrito compras" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-cont-7bc3b95f93.png" title=" Jasmine waits up to 5s until the Contenedor de los productos en el carrito does become visible" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-boto-7bc3b95f93.png" title=" Jasmine waits up to 5s until the Boton realizar el pedido does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-realizar-7c6870ff59.png" title=" Jasmine clicks on the Boton realizar el pedido" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-waits-up-to-5s-until-the-inpu-2c215bfdd6.png" title=" Jasmine waits up to 5s until the Input ingresar el nombre does become clickable" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-juan-camilo-murcia-ra-628b2b2940.png" title=" Jasmine enters 'Juan Camilo Murcia Ramos' into the Input ingresar el nombre" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-colombia-into-the-in-59a4e0ecc6.png" title=" Jasmine enters 'Colombia' into the Input ingresar el pais" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-medellin-into-the-in-8f9c9c6be1.png" title=" Jasmine enters 'Medellin' into the Input ingresar la ciudad" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-1234098734568976-int-edc2b8ee94.png" title=" Jasmine enters '1234098734568976' into the Input ingresar el numero de trajeta de credito" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-mayo-into-the-input-999c1bdeeb.png" title=" Jasmine enters 'Mayo' into the Input ingresar el mes de la tarjeta de credito" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-enters-2020-into-the-input-a630e1db5f.png" title=" Jasmine enters '2020' into the Input ingresar el a&ntilde;o de la tarjeta de credito" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-clicks-on-the-boton-terminar-45259d601d.png" title=" Jasmine clicks on the Boton terminar el proceso de compra" width="0"/>
+                <img src="photo-linux-chrome-92.0.4515.131-jasmine-ensures-that-texto-del-elemen-610a344f07.png" title=" Jasmine ensures that Texto del elemento the Mensaje del modal does equal 'Thank you for your purchase!': <span class='success-color'>SUCCESS</span>" width="0"/>
             </div>
         </div>
 
