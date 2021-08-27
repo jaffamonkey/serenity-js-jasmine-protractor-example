@@ -1,9 +1,15 @@
+![build](https://github.com/camillomurcia/serenity-js-jasmine-protractor-example/actions/workflows/build.yml/badge.svg)
 [![devDependencies Status](https://status.david-dm.org/gh/camillomurcia/serenity-js-jasmine-protractor-example.svg?type=dev)](https://david-dm.org/camillomurcia/serenity-js-jasmine-protractor-example?type=dev)
 
 # Serenity/JS Jasmine Protractor
 
 Automation example using [Serenity/JS](https://serenity-js.org), [Jasmine](https://jasmine.github.io/) and [Protractor](https://www.protractortest.org/#/) with the structure of the screenplay pattern.
 
+Learn more:
+- [Serenity BDD reports for this project](https://camillomurcia.github.io/serenity-js-jasmine-protractor-example/index.html)
+- [Serenity/JS Website](https://serenity-js.org)
+- [Serenity/JS Tutorial](https://serenity-js.org/handbook/thinking-in-serenity-js/index.html)
+- [Serenity/JS API Docs](https://serenity-js.org/modules)
 
 ## Prerequisites
 
