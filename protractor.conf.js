@@ -51,7 +51,7 @@ exports.config = {
                 '-lang=es',
                 '--disable-popup-blocking',
                 '--disable-download-notification',
-                '--start-maximized',
+                '--window-size=1920,1080',
                 '--ignore-certificate-errors',
                 '--allow-running-insecure-content',
                 '--disable-translate',
